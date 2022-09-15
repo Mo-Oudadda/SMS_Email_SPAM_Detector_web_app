@@ -25,5 +25,5 @@ nltk
 
 # Run Application on localhost :
 ```python
-streamlit run app.py
+streamlit run app/app.py
 ```
