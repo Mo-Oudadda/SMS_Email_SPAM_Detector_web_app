@@ -24,7 +24,7 @@ def predict(model, data):
     return predictions
 
 
-model = pickle.load(open('./model.pkl','rb'))
+model = pickle.load(open('/app/app/model.pkl','rb'))
 st.title("Email/SMS Spam Classifier")
 input_sms = st.text_area("Enter the message")
 if st.button('Predict'):
