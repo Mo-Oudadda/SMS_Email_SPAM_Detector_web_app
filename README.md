@@ -24,5 +24,6 @@ Sickitlearn
 nltk
 
 # Run Application on localhost :
-cd SMS_Email_SPAM_Detector_web_app\app
+```python
 streamlit run app.py
+```
